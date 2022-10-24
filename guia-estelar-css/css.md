@@ -195,7 +195,7 @@ font: italic bold .8em/1.2 Arial, sans-serif;
 
 ### Vendor Prefixes
 
-* Permite que browsers adicione `fleatures` a fim de colocar em uso alguma novidade que temos no CSS
+* Permite que browsers adicione `features` a fim de colocar em uso alguma novidade que temos no CSS
 
 * webkit = chrome, safari, ios e android
 * moz = mozilla (firefox)
