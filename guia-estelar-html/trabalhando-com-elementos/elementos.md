@@ -34,22 +34,24 @@
 
 ### Listas de descrição
 
+```html
 <h2>Glossário</h2>
 <dl>
 <dt>Hypertext</dt>
 <dd>É um hipertexto com possibilidades..</dd>
 <dl>
+```
 
 ### Representação de códigos
 
-<code> = partes genéricas de código
-<pre> = blocos de código, mantém espaços em brancos e recuos que eu colocar no meu código
-<xmp> = está caindo em desuso
+`<code>` = partes genéricas de código
+`<pre>` = blocos de código, mantém espaços em brancos e recuos que eu colocar no meu código
+`<xmp>` = está caindo em desuso
 
 ### Elementos genéricos
 
-* <div> = ideia de blocos
-* <span> = ideia de linha
+* `<div>` = ideia de blocos
+* `<span>` = ideia de linha
 
 
 

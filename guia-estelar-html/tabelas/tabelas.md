@@ -1,6 +1,6 @@
 # Tabelas
 
-<table>
+`<table>`
 
 Prós:
   - Visulização de dados via linhas e colunas.

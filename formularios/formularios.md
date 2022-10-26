@@ -17,10 +17,10 @@
 * controles customizados
 * javascript
 
-### <form>
+### `<form>`
 
 * elemento que definirá um formulário
-* é cum container estilo <section> e <footer>
+* é cum container estilo `<section>` e `<footer>`
 
 #### Atributos básicos
 
@@ -47,7 +47,7 @@
 * name
     - nome do grupo do fieldset
 
-<legend>    
+`<legend>`
     - nome do agrupamento que aparece na tela
     - primeiro elemento dentro do fieldset
 
@@ -63,7 +63,7 @@
       </fieldset>
    ```
       
-#### <label>
+#### `<label>`
 
 * associar e identificar uma (ou mais) tags de entrada de dados
 * acessibilidade
@@ -83,7 +83,7 @@
       </label>
        <input id="nome type="text">
        ```
-### <button>
+### `<button>`
 
 * representa um botão
 * usado para enviar formulários
@@ -103,7 +103,7 @@
 
 ### Datalist
 
-* lista de valores como sugestão a uma tag <input>
+* lista de valores como sugestão a uma tag `<input>`
 * valores sugestivos e não obrigatórios
 * usuários poderão selecionar um dos valores, ou colocar um valor diferente da sugestão
 
@@ -137,7 +137,7 @@ placeholder="Escolha uma fruta" />
 
 `Verificar a compatibilidade com o browser!`
 
-### <input>
+### `<input>`
 
 * um dos mais usados em formulários
 * aceita os mais diversos tipos de dados
@@ -164,8 +164,7 @@ placeholder="Escolha uma fruta" />
 
 `Obs: não trocar o label pelo placeholder`
 
-
-### <input type="password">
+### `<input type="password">`
 
 * colocar uma senha de maneira segura
 * esconde o que está sendo digitado no campo
@@ -181,7 +180,7 @@ placeholder="Escolha uma fruta" />
     * expressão regular para validar o que está sendo digitado no campo
     * altamente recomendado o uso de um padrão de segurança alta de senhas
     * exemplo: queremos que a senha contenha caracteres hexadecimais com o limite mínimo de 4 e no máximo 8 caracteres
-        * pattern="[0-9a-fA-F]{4, 8}"    
+        * `pattern="[0-9a-fA-F]{4, 8}"`
 - title = ajuda na acessibilidade
 - placeholder 
     * mostra um exemplo de texto a ser digitado no campo
@@ -198,7 +197,7 @@ placeholder="Escolha uma fruta" />
     * off: desabilita a opção de autocompletar
     * new-password: o navegador poderá sugerir uma nova senha
 
-### <input type="email">
+### `<input type="email">`
 
 * espera que o usuário digite um email
 * irá validar se o valor digitado é um email
@@ -218,13 +217,13 @@ placeholder="Escolha uma fruta" />
 - pattern
     * uso de expressão regular para validar o campo
     * exemplo: o usuário só poderá colocar email do domínio rocketseat.com.br
-        * pattern="[.+@rocketseat\.com\.br]"
+        * `pattern="[.+@rocketseat\.com\.br]"`
 - list
     * o id de uma tag <datalist> que está no mesmo documento
-    * <datalist> irá conter uma lista de valores pré-definidos a fim de sugerir ao usuário, quais valores estão disponíveis
-        * os valores do <datalist> que não forem compatíveis com o campo, não serão apresentados como sugestão
+    * `<datalist>` irá conter uma lista de valores pré-definidos a fim de sugerir ao usuário, quais valores estão disponíveis
+        * os valores do `<datalist>` que não forem compatíveis com o campo, não serão apresentados como sugestão
 
-### <input type="url">
+### `<input type="url">`
 
 * espera que o usuário digite uma url
 * irá invalidar se o valor digitado é uma url
@@ -244,8 +243,7 @@ placeholder="Escolha uma fruta" />
 - spellcheck
     * habilitar a verificação ortográfica para este input
 
-
-### <input type="file">
+### `<input type="file">`
 
 * usuário poderá escolher 1 ou mais arquivos para enviar no formulário
 
@@ -265,7 +263,7 @@ placeholder="Escolha uma fruta" />
 
 Para o envio dos arquivos o formulário deverá utilizar o método POST e atributo enctype como "multipart/form-data".
 
-### <input type="color">
+### `<input type="color">`
 
 * interface para selecionar a cor
 * color picker
@@ -276,7 +274,7 @@ Para o envio dos arquivos o formulário deverá utilizar o método POST e atribu
     * se inválido, a cor preta será exibida
 - list
 
-### <input type="checkbox">
+### `<input type="checkbox">`
 
 * caixas que podem ser marcadas
 * selecionar um valor para ser enviado
@@ -295,7 +293,7 @@ Para o envio dos arquivos o formulário deverá utilizar o método POST e atribu
 
 - usaremos o atributo 'name' com o mesmo nome para os diversos campos
 
-### <input type="hidden">
+### `<input type="hidden">`
 
 - invisível ao usuário
 - será enviado com o formulário
@@ -306,7 +304,7 @@ Para o envio dos arquivos o formulário deverá utilizar o método POST e atribu
 <input type="hidden" id="timestamp" name="timestamp" value="123456789">
 ```
 
-### <input type="radio">
+### `<input type="radio">`
 
 * projetado para selecionar uma única opção de um grupo de opções
 
@@ -317,7 +315,7 @@ Para o envio dos arquivos o formulário deverá utilizar o método POST e atribu
 - value
     * valor que aquele campo contém
 
-### <textarea>
+### `<textarea>`
 
 * mais de uma linha
 * útil para textos grandes
@@ -333,11 +331,11 @@ Para o envio dos arquivos o formulário deverá utilizar o método POST e atribu
 `outros comuns aos <input>s`
 ` autocomplete, autofocus, disabled, placeholder, readonly, form, required`
 
-### <select>
+### `<select>`
 
 * contole que fornece menu de opções
 
-#### <option>
+#### `<option>`
 
 * contém as opções a serem selecionadas
 * atributos necessários: value
@@ -349,11 +347,11 @@ Para o envio dos arquivos o formulário deverá utilizar o método POST e atribu
 - size
     * quantidade de opções visíveis
 
-#### <optgroup>
+#### `<optgroup>`
 
-* agrupamento dos options dentro do <select>
+* agrupamento dos options dentro do `<select>`
 
-### <input type="search">
+### `<input type="search">`
 
 * para campos de busca
 * é igual ao campo do tipo 'text' mas poderá ser um pouco diferente dependendo do user agent
@@ -366,7 +364,7 @@ Para o envio dos arquivos o formulário deverá utilizar o método POST e atribu
 - arial-label
     * quando não tem o label
   
-### <input type="number">
+### `<input type="number">`
 
 * entrada de números
 
@@ -377,7 +375,7 @@ Para o envio dos arquivos o formulário deverá utilizar o método POST e atribu
     * pula números
 - list
 
-### <input type="range">
+### `<input type="range">`
 
 * controle para selecionar um valor numérico
 * slider ou dial control
@@ -393,15 +391,15 @@ Para o envio dos arquivos o formulário deverá utilizar o método POST e atribu
 * porém não tem um bom suporte
 * https://caniuse.com
 
-<input type="date">
+`<input type="date">`
 
-<input type="datetime-local">
+`<input type="datetime-local">`
 
-<input type="month">
+`<input type="month">`
 
-<input type="time">
+`<input type="time">`
 
-<input type="week">
+`<input type="week">`
 
 ### Desenhando formulários
 

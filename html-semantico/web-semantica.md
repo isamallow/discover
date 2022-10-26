@@ -26,15 +26,15 @@
 
 # Seções comuns em documentos HTML
 
-- cabeçallho <header>
-- navegação <nav>
-- conteúdo principal <main>
-- barra lateral <aside>
-- rodapé <footer>
+- cabeçallho `<header>`
+- navegação `<nav>`
+- conteúdo principal `<main>`
+- barra lateral `<aside>`
+- rodapé `<footer>`
 
 ## Header
 
-- <header></header>
+- `<header></header>`
 
 ### Onde utilizar?
 

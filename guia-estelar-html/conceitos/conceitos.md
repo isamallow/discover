@@ -44,7 +44,7 @@
 
 ### Conteúdo do texto e caracteres reservados
 
-* <br> = quebra de linha
+* `<br>` = quebra de linha
 * &nbsp; = espaçamento
 
 * caracteres reservados 

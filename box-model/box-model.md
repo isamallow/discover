@@ -58,7 +58,7 @@ div {
 
 * espaços entre elementos
 * margin-top | margin-right | margin-bottom | margin-left
-* values <lenght> | <percentage> | auto
+* values `<lenght>` | `<percentage>` | auto
 
 ```css
 div {
@@ -93,7 +93,7 @@ section {
 * preenchimento interno da caixa
 
 * padding-top | padding-right | padding-bottom | padding-left
-* values <lenght> | <percentage> | auto
+* values `<lenght>` | `<percentage>` | auto
 
 ```css
 div {
@@ -114,10 +114,10 @@ div {
 
 * as bordas da caixa
 
-- value: <border-style> | <border-width> | <border-color>
+- value: `<border-style>` | `<border-width>` | `<border-color>`
 - style: solid | dotted | dashed | double | groove | ridge | inset | outset
-- width: <lenght>
-- Color: <color>
+- width: `<lenght>`
+- Color: `<color>`
 
 ```css
 div {

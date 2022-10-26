@@ -59,16 +59,16 @@ h1 {
 
 * atrbuto `style`
 
-#### <style>
+#### `<style>`
 
   * tag html que irá conter o css
 
-#### <link> 
+#### `<link>`
 
 * melhor prática
 * arquivo css externo
 
-#### @import
+#### `@import`
 
 * utiliza dentro do css
 * arquivo css externo
@@ -97,13 +97,13 @@ inline > tag style > tag link
 
 1. Element type selectior e pseudo-elements (::before, :: after) = força de 1
 
-10. Classes e attribute selectors{[type="radio"]} = força de 10
+10. Classes e attribute `selectors{[type="radio"]}` = força de 10
 
 100. ID selector = força de 100
 
 1000. Inline = o mais forte 
 
-### Regra !important
+### Regra `!important`
 
 * evitar o uso
 * não é considerado uma boa prática
@@ -142,7 +142,7 @@ inline > tag style > tag link
 }
 ```
 
-### Shortland
+### Shorthand
 
 * junção de propriedades
 * resumido
@@ -184,7 +184,6 @@ font: italic bold .8em/1.2 Arial, sans-serif;
 * recebe argumentos
 
 ````css 
-
 @import url("http://urlaqui.com/style.css);
 
 {

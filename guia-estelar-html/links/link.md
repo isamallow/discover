@@ -1,6 +1,6 @@
 ### Hyperlinks 
 
-* elemento âncora <a>
+* elemento âncora `<a>`
 
 * anatomia do link
 
