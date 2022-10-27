@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  gap: 1rem;
+}
+
+.column-1,
+.column-2 {
+  height: 95vh;
+}
+
+.column-1 {
+  background: #121224;
+  color: #FFFFFF;
+  flex-basis: 25%;
+}
+
+.column-2 {
+  background: #67159C;
+  color: #FFFFFF;
+  flex: 1;
+}
