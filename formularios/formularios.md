@@ -123,13 +123,13 @@ placeholder="Escolha uma fruta" />
 
 #### list
 
-* um atributo que recebe como valor o id de um <datalist> residente no mesmo documento
+* um atributo que recebe como valor o id de um `<datalist>` residente no mesmo documento
 
 #### Tipos de input suportados
 
 * text, search, url, tel, email, date, month, week, time, datetime-local, number, range e color
 
-* valores de datalist que não são compatíveis com o tipo do <input> não apresentados
+* valores de datalist que não são compatíveis com o tipo do `<input>` não apresentados
 
 #### Tipos de input não suportados (conforme especificação)
 
@@ -219,7 +219,7 @@ placeholder="Escolha uma fruta" />
     * exemplo: o usuário só poderá colocar email do domínio rocketseat.com.br
         * `pattern="[.+@rocketseat\.com\.br]"`
 - list
-    * o id de uma tag <datalist> que está no mesmo documento
+    * o id de uma tag `<datalist>` que está no mesmo documento
     * `<datalist>` irá conter uma lista de valores pré-definidos a fim de sugerir ao usuário, quais valores estão disponíveis
         * os valores do `<datalist>` que não forem compatíveis com o campo, não serão apresentados como sugestão
 
@@ -238,7 +238,7 @@ placeholder="Escolha uma fruta" />
 - size
 - pattern
     * exemplo: o usuário só poderá colocar domínio .com.br
-        * pattern="*\.com\.br\/.*"
+        * `pattern="*\.com\.br\/.*"`
 - list
 - spellcheck
     * habilitar a verificação ortográfica para este input
@@ -358,9 +358,9 @@ Para o envio dos arquivos o formulário deverá utilizar o método POST e atribu
 
 #### Atributos
 
-- list / <datalist>
+- list / `<datalist>`
 - pattern
-    * exemplo pattern="[0-9]{2}"
+    * exemplo `pattern="[0-9]{2}"`
 - arial-label
     * quando não tem o label
   

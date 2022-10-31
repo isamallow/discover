@@ -26,6 +26,7 @@
   </tr>
  </table>
 ```
+
 ## Tabless
 
 * uso das propriedades `float`, `clear` para que os elementos possam mudar de posição na tela
@@ -75,7 +76,7 @@ normal
 
 #### Direção dos items
 
-* fle é uma dimensão (horizontal ou vertical)
+* flex é uma dimensão (horizontal ou vertical)
 * podemos mudar a direção com `flex-direction`
 * valores: row | row-reverse| column | column-reverse
 
