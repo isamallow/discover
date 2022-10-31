@@ -27,10 +27,11 @@
 
 * São fixas e não alteram seu valor.
 
-Unidade        Nome             Equivalência
-cm           centímetros        1cm = 96px/2.54  
-in           inches(polegadas)  1in = 2.54cm = 96px  
-px           pixels             1px = 1/96th of lin
+Unidade   |     Nome           |  Equivalência
+----------|--------------------|----------------------
+cm        |   centímetros      | 1cm = 96px/2.54  
+in        |   inches(polegadas)| 1in = 2.54cm = 96px  
+px        |   pixels           | 1px = 1/96th of lin
 
 * o mais comum e mais utilizado é o `px`
 * não recomendado usar cm
@@ -41,11 +42,12 @@ px           pixels             1px = 1/96th of lin
 
 * Benefício: Maior adaptação aos diferentes tipos de tela.
 
-Unidade      Relativo a
-em           Tamanho da font do pai.
-rem          Tamanho da font do elemento raiz (root/html)
-vw           1% da viewpor width.
-vh           1% da viewpor height.
+Unidade   |   Relativo a
+----------|----------------------------------------------- 
+em        |   Tamanho da font do pai.
+rem       |   Tamanho da font do elemento raiz (root/html)
+vw        |   1% da viewpor width.
+vh        |   1% da viewpor height.
 
 ## Porcentagens
 
