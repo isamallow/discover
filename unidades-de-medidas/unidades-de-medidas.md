@@ -7,7 +7,7 @@
 
 * como conhecer e estudar os valores na documentação?
     * `<color> <lenght>`
-* os termos podem variar `values` ou `data types
+* os termos podem variar `values` ou `data types`
 
 ## Tipos numéricos
 
